@@ -1,6 +1,13 @@
 @media only screen and (max-width: 768px) {
-    .container .grid .row {
+    .main {
+        align-items: start;
+        margin: 20px 0 0;
+    }
+
+    .container .grid{
+        display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         align-items: center;
     }    
 

@@ -7,28 +7,31 @@
     <title>My Lightbox</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/all.min.css">
     <script src="./js/script.js" defer></script>
 </head>
 <body>
     <div class="main">
         <div class="container">
             <div class="grid">
-                <div class="row row-1">
-                    <img src="./images/1.jpg" alt="">
-                    <img src="./images/2.jpg" alt="">
-                    <img src="./images/3.jpg" alt="">
-                </div>
-                <div class="row row-2">
-                    <img src="./images/4.jpg" alt="">
-                    <img src="./images/5.jpg" alt="">
-                    <img src="./images/6.jpg" alt="">   
-                </div>
-                <div class="row row-3">
-                    <img src="./images/7.jpg" alt="">
-                    <img src="./images/8.jpg" alt="">
-                    <img src="./images/9.jpg" alt="">
-                </div>
+                <img src="./images/1.jpg" alt="" class="landscape" value="0">
+                <img src="./images/2.jpg" alt="" class="landscape" value="1">
+                <img src="./images/3.jpg" alt="" class="landscape" value="2">
+                <img src="./images/4.jpg" alt="" class="landscape" value="3">
+                <img src="./images/5.jpg" alt="" class="landscape" value="4">
+                <img src="./images/6.jpg" alt="" class="landscape" value="5">   
+                <img src="./images/7.jpg" alt="" class="landscape" value="6">
+                <img src="./images/8.jpg" alt="" class="landscape" value="7">
+                <img src="./images/9.jpg" alt="" class="landscape" value="8">
             </div>
+        </div>
+    </div>
+    <div id="lightbox">
+        <div class="image-area">
+            <img src="" alt="" class="lightbox-img">
+            <a href="#" class="cross"><i class="fa-sharp fa-regular fa-circle-xmark"></i></a>
+            <a href="#" class="prev"><i class="fa-solid fa-angle-left"></i></a>
+            <a href="#" class="next"><i class="fa-solid fa-angle-right"></i>  </a>
         </div>
     </div>
 </body>
